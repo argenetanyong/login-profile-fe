@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.home {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-form {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.register-form {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile-page {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.delete-page {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete-profile-btn {
+  margin-left: 50px;
+}
+
+.home__buttons-container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.home__loginBtn {
+  margin-right: 20px;
+}
+
+.login__backBtn {
+  margin-right: 20px;
+}
+
+.register__backBtn {
+  margin-right: 20px;
+}
+
+.updateProfile__backBtn {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.updateProfile__saveBtn {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.updateProfile__changePwBtn {
+  margin-top: 20px;
 }
